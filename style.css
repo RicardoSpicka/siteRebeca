@@ -1,0 +1,292 @@
+body{
+    background-color: #fef6eb;
+    font-size: 25px;
+}
+
+
+Header{
+    width: 100%;
+    height: 250px;
+    background-color: #cfd6ce;
+    margin: 0px;
+    padding: 10px;
+}
+
+#cabeçalho{
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    grid-column-gap: 20px;    
+    color: #60a030;
+    text-align: center;
+    align-content: space-around;
+}
+
+#titulo{
+    align-content: center;
+    font-family: 'Courgette', cursive;
+}
+
+#titulo h1{
+    font-size: 60px;
+    margin: 10px;
+}
+
+#titulo h2{
+    font-size: 40px;
+    margin: 10px;
+}
+
+#logo{
+    width: 200px;
+    margin-top: 20px;
+}
+
+nav{
+    font-family: 'Short Stack', cursive;
+    font-size: 20px;
+    color: #c84f7a;
+    padding: 3%;
+    text-decoration: none;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu a{
+    text-decoration: none;
+    align-items: center;
+}
+
+    #menu a:hover{
+        color: #a09d9df5;
+    }
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #efeff9;
+}
+
+section h1{
+    font-size: 30px;
+    font-family: 'Short Stack', cursive;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    color: #333333;
+}
+
+#frase{
+    text-align: center;
+    height: 120px;
+    align-content: center;
+    margin-top: -60px;
+}
+
+.card1{
+    font-family: 'Roboto', sans-serif;
+    background-color: #bdd1de;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card2{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4ebf0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#massagem{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#becca{
+    width: 300px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.texto{
+    text-align: justify;
+    padding: 20px;
+    text-indent: 40px;
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#card3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#serviços{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+.card4 img{
+    width: 600px;
+    background-position: center;
+    border-radius: 15px;
+
+}
+
+.card4 button{
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #60a030;;
+    color: #333333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contatoPai{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+#endereço li{
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-group input{
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.form-group textarea{
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.form-group input::placeholder{
+    color: rgb(82, 80, 80);
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-group textarea::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(82, 80, 80);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.form-group label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.contact input[type="submit"]{
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #60a030;;
+    color: #333333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#endereço ul li i{
+    font-family: 'Roboto', sans-serif;
+}
+
+#endereço a{
+    text-decoration: none;
+    color:rgb(202, 16, 16);
+}
+
+#endereço .sem{
+    text-decoration: none;
+    color: #333333;
+}
+
+.end{
+    text-align: center;
+    width: 50%;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #cfd6ce; 
+    margin: 0px;
+}
+
+footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    padding: 150px 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(202, 16, 16);
+}
